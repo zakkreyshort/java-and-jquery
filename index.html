@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,43 +10,34 @@
   <script src="js/jquery.js"></script>
   <script src="js/scripts.js"></script>
   <title>Programming Language Suggestor</title>
-
   <!--Created form for submission, link value to appropriate programming language-->
 </head>
-
-<body>
-
-
   <div class="container">
     <h1>Programming Language Suggestor</h1>
     <h4>Find out more in-depth information on a coding language below after answering a question.</h4>
   </div>
   <br>
   <div class="container">
-  <ul class="nav nav-tabs">
-    <li class="active"><a href="#">Home</a></li>
-    <li><a href="#">Personal GitHub</a></li>
-    <li><a href="#">Epicodus</a></li>
-    <li><a href="#">Google</a></li>
-  </ul>
+    <ul class="nav nav-tabs">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Personal GitHub</a></li>
+      <li><a href="#">Epicodus</a></li>
+      <li><a href="#">Google</a></li>
+    </ul>
   </div>
   <!--beginning of survey linking to panels-->
-
+<body>
   <div class="container">
     <div class="form-group">
       <h4>What are your general coding interests?</h4>
       <form>
         <input type="radio" name="language" value="Python">Learn about animation!
         <br>
-
         <input type="radio" name="language" value="Rust">Create servers, software, anything!
         <br>
-
         <input type="radio" name="languag" value="Swift">I love all things Apple!
-
       </form>
       <br>
-
       <form>
         <h4>What is your favorite color?</h4>
         <form>
@@ -56,37 +46,27 @@
             <input id="color" class="form-control" type="color">
           </div>
         </form>
+      </form>
         <br>
-
         <form>
           <h4>What Star Wars character is best?</h4>
           <form>
             <input type="radio" name="starwars" value="darthvader">Darth Vader
-
             <br>
             <input type="radio" name="starwars" value="babyyoda">Baby Yoda
-
             <br>
             <input type="radio" name="starwars" value="chewy">Chewbacca
           </form>
           <br>
-          <div class="row">
+        </form>   
             <p><input type="button" value="Get Value"></p>
-            <Div>
+            <!-- <Div>
               <input type="reset">
-            </Div>
-          </div>
+            </Div> -->
     </div>
   </div>
   <!--end of original survey that links to submit-->
-
-
-
-
-
-
   <!--panels with info below are hidden, write function based on answer submitted-->
-
   <div id="listpython" class="form">
     <div class="container">
       <div class="form-group">
@@ -102,8 +82,10 @@
               <li>Software Development</li>
               <li>Business Applications</li>
             </ul>
-            <p>Of course, this is just a brief synopsis of all the amazing things that Python can do. To check our sources
-              and learn more complex information please visit <a href="https://www.python.org">Python</a> . Check out the
+            <p>Of course, this is just a brief synopsis of all the amazing things that Python can do. To check our
+              sources
+              and learn more complex information please visit <a href="https://www.python.org">Python</a> . Check out
+              the
               documentation, current events, and community sections and code away!</p>
           </div>
         </div>
@@ -114,7 +96,8 @@
         <div id="rustpanel" class="panel panel-success">
           <div class="panel-heading">Rust</div>
           <div class="panel body">
-            <p>Rust: A language empowering everyone to build reliable and efficient software. Here are a few things we can
+            <p>Rust: A language empowering everyone to build reliable and efficient software. Here are a few things we
+              can
               build using Rust:<p>
                 <br>
                 <ul>
@@ -124,7 +107,8 @@
                   <li>Virtual Machines</li>
                 </ul>
                 <p>There are many great things you can make your computer do using Rust. Visit <a
-                    href="https://www.rust-lang.org">Rust-Lang.org</a> to look deeper into the depths of building software
+                    href="https://www.rust-lang.org">Rust-Lang.org</a> to look deeper into the depths of building
+                  software
                   with Rust.</p>
           </div>
         </div>
@@ -152,5 +136,4 @@
     </div>
   </div>
 </body>
-
 </html>

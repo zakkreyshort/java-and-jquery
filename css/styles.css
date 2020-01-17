@@ -1,11 +1,15 @@
-#listpython {
+#pythonpanel {
   display: none;
 }
 
-#listrust {
+#rustpanel {
   display: none;
 }
 
-#listswift {
+#swiftpanel {
   display: none;
+}
+
+body{
+  background-color: lightcyan;
 }
