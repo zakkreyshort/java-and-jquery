@@ -14,7 +14,6 @@
 
   <!--Created form for submission, link value to appropriate programming language-->
 </head>
-
 <body>
   <div class="container">
     <h1>Programming Language Suggestor</h1>
@@ -24,15 +23,15 @@
   <!--beginning of survey linking to panels-->
 
   <div class="container">
-    <form>
+    <div class="form-group">
       <h4>What are your general coding interests?</h4>
       <form>
         <input type="radio" name="language" value="Python">Learn about animation!
-
         <br>
+
         <input type="radio" name="language" value="Rust">Create servers, software, anything!
-
         <br>
+
         <input type="radio" name="languag" value="Swift">I love all things Apple!
 
       </form>
@@ -45,10 +44,10 @@
             <label for="color">Click bar below:</label>
             <input id="color"  class="form-control" type="color">
           </div>
-        </form>
+      </form>
         <br>
 
-        <form>
+      <form>
           <h4>What Star Wars character is best?</h4>
           <form>
             <input type="radio" name="starwars" value="darthvader">Darth Vader
@@ -58,14 +57,16 @@
 
             <br>
             <input type="radio" name="starwars" value="chewy">Chewbacca
-
           </form>
           <br>
+          <p><input type="button" value="Get Value"></p>
+        </div>
+  </div>
           <!--end of original survey that links to submit-->
 
           <!--Original form below, was not correct-->
 
-          
+
           <!-- <h4>What is your favorite color?</h4>
       <div class="radio">
         <label>
@@ -148,9 +149,7 @@
       <br> -->
 
           <!--submit butt-->
-          <p><input type="button" value="Get Value"></p>
-        </form>
-  </div>
+    
 
 
 
@@ -219,5 +218,4 @@
     </div>
   </div>
 </body>
-
 </html>
