@@ -12,6 +12,7 @@
   <title>Programming Language Suggestor</title>
   <!--Created form for submission, link value to appropriate programming language-->
 </head>
+<body>
   <div class="container">
     <h1>Programming Language Suggestor</h1>
     <h4>Find out more in-depth information on a coding language below after answering a question.</h4>
@@ -26,19 +27,18 @@
     </ul>
   </div>
   <!--beginning of survey linking to panels-->
-<body>
   <div class="container">
-    <div class="form-group">
+    <form>
       <h4>What are your general coding interests?</h4>
-      <form>
+      <div class="form-group">
         <input type="radio" name="language" value="Python">Learn about animation!
         <br>
         <input type="radio" name="language" value="Rust">Create servers, software, anything!
         <br>
         <input type="radio" name="languag" value="Swift">I love all things Apple!
-      </form>
+      </div>
       <br>
-      <form>
+      <!-- <form>
         <h4>What is your favorite color?</h4>
         <form>
           <div class="form-group">
@@ -46,28 +46,25 @@
             <input id="color" class="form-control" type="color">
           </div>
         </form>
-      </form>
+      </form> -->
         <br>
-        <form>
+        <form class="form-group">
           <h4>What Star Wars character is best?</h4>
-          <form>
-            <input type="radio" name="starwars" value="darthvader">Darth Vader
+          
+            <input type="radio" name="starwars" value="darthvader">Darth Vader</input>
             <br>
-            <input type="radio" name="starwars" value="babyyoda">Baby Yoda
+            <input type="radio" name="starwars" value="babyyoda">Baby Yoda</input>
             <br>
-            <input type="radio" name="starwars" value="chewy">Chewbacca
-          </form>
+            <input type="radio" name="starwars" value="chewy">Chewbacca</input>
+          
           <br>
         </form>   
-            <p><input type="button" value="Get Value"></p>
-            <!-- <Div>
-              <input type="reset">
-            </Div> -->
-    </div>
+            <p><input type="button" value="Get Value"></input></p>
+    </form>
   </div>
   <!--end of original survey that links to submit-->
   <!--panels with info below are hidden, write function based on answer submitted-->
-  <div id="listpython" class="form">
+  <form id="listpython" class="form">
     <div class="container">
       <div class="form-group">
         <div id="pythonpanel" class="panel panel-success">
@@ -134,6 +131,6 @@
         </div>
       </div>
     </div>
-  </div>
+  </form>
 </body>
 </html>

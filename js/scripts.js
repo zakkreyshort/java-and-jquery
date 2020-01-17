@@ -1,25 +1,23 @@
 $(document).ready(function () {
   $("input[type='button']").click(function () {
-    
     var radioValue = $("input[name='language']:checked").val();
     var otherValue = $("input[name='starwars']:checked").val();
-    if (radioValue === 'Python' || otherValue === 'darthvader') {
+    if (radioValue === "Python" ) {
       $("#pythonpanel").show();
-      $("#rustpannel").hide();
-      $("#swiftpannel").hide();
-    } else if (radioValue === 'Rust') {
-      $("#rustpannel").show();
+      $("#rustpanel").hide();
+      $("#swiftpanel").hide();
+    } else if (radioValue === "Rust") {
+      $("#rustpanel").show();
       $("#pythonpanel").hide();
-      $("#swiftpannel").hide();
+      $("#swiftpanel").hide();
     } else {
-      $("#swiftpannel").show();
-      $("#rustpannel").hide();
+      $("#swiftpanel").show();
+      $("#rustpanel").hide();
       $("#pythonpanel").hide();
     }
     event.preventDefault();
-    // event.preventDefault();
   });
-
+  
   
 });
 
