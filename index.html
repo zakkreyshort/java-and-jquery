@@ -9,30 +9,39 @@
   <script src="js/jquery.js"></script>
   <script src="js/scripts.js"></script>
   <title>Programming Language Suggestor</title>
+
+<!--Created form for submission, link value to appropriate programming language-->
 </head>
 <body>
   <div class="container">
     <h1>Programming Language Suggestor</h1>
-    <h4>Find out more in-depth information on a coding language below after answering a few questions.</h4>
+    <h4>Find out more in-depth information on a coding language below after answering a question.</h4>
   </div>
   <div class="container">
     <form>
-    <div class="form-group">
-      <label for="learnpython">Tell me about making automating!</label>
-      <input id="learnpython" class="form-submit" type="text">
+    <div class="radio">
+      <label>
+        <input name="language" value="Python" type="radio">
+        Learn about automation!
+      </label>
     </div>
-    <div class="form-group">
-      <label for="learnpython">Tell me about making automating!</label>
-      <input id="learnpython" class="form-submit" type="text">
+    <div class="radio">
+      <label>
+        <input name="language" value="Rust" type="radio">
+        Create servers, software, anything!
+      </label>
     </div>
-    <div class="form-group">
-      <label for="learnpython">Tell me about making automating!</label>
-      <input id="learnpython" class="form-submit" type="text">
+    <div class="radio">
+      <label>
+        <input name="language" value="Swift" type="radio">
+        I love all things Apple!
+      </label>
     </div>
-    <button type="submit" class="btn">Submit!</button>
+    <p><input type="button" value="Get Value"></p>
     </form>
   </div>
 
+<!--panels with info below are hidden, write function based on answer submitted-->
 
   <div id="listpython" class="form">
     <div class="form-group">
