@@ -11,3 +11,5 @@ $(document).ready(function(){
   });
 });
 
+
+// var favoriteColor = $("#color").val(); think this is proper form for value for color wheel, test.
