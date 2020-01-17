@@ -16,11 +16,21 @@
 </head>
 
 <body>
+
+
   <div class="container">
     <h1>Programming Language Suggestor</h1>
     <h4>Find out more in-depth information on a coding language below after answering a question.</h4>
   </div>
   <br>
+  <div class="container">
+  <ul class="nav nav-tabs">
+    <li class="active"><a href="#">Home</a></li>
+    <li><a href="#">Personal GitHub</a></li>
+    <li><a href="#">Epicodus</a></li>
+    <li><a href="#">Google</a></li>
+  </ul>
+  </div>
   <!--beginning of survey linking to panels-->
 
   <div class="container">
@@ -61,98 +71,16 @@
           </form>
           <br>
           <div class="row">
-          <p><input type="button" value="Get Value"></p>
-          <input type="reset" value="Reset">
+            <p><input type="button" value="Get Value"></p>
+            <Div>
+              <input type="reset">
+            </Div>
           </div>
     </div>
   </div>
   <!--end of original survey that links to submit-->
 
-  <!--Original form below, was not correct-->
 
-
-  <!-- <h4>What is your favorite color?</h4>
-      <div class="radio">
-        <label>
-          <input name="language" value="Python" type="radio">
-          Learn about automation!
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input name="language" value="Rust" type="radio">
-          Create servers, software, anything!
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input name="language" value="Swift" type="radio">
-          I love all things Apple!
-        </label>
-      </div>
-      <br>
-      <h4>What is your favorite color?</h4>
-      <div class="radio">
-        <label>
-          <input name="language" value="Python" type="radio">
-          Learn about automation!
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input name="language" value="Rust" type="radio">
-          Create servers, software, anything!
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input name="language" value="Swift" type="radio">
-          I love all things Apple!
-        </label>
-      </div>
-      <br>
-      <h4>What is your favorite color?</h4>
-      <div class="radio">
-        <label>
-          <input name="language" value="Python" type="radio">
-          Learn about automation!
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input name="language" value="Rust" type="radio">
-          Create servers, software, anything!
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input name="language" value="Swift" type="radio">
-          I love all things Apple!
-        </label>
-      </div>
-      <br>
-      <h4>What is your favorite color?</h4>
-      <div class="radio">
-        <label>
-          <input name="language" value="Python" type="radio">
-          Learn about automation!
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input name="language" value="Rust" type="radio">
-          Create servers, software, anything!
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input name="language" value="Swift" type="radio">
-          I love all things Apple!
-        </label>
-      </div>
-      <br> -->
-
-  <!--submit butt-->
 
 
 
@@ -160,63 +88,65 @@
   <!--panels with info below are hidden, write function based on answer submitted-->
 
   <div id="listpython" class="form">
-    <div class="form-group">
-      <div id="pythonpanel" class="panel panel-success">
-        <div class="panel-heading">Python</div>
-        <div class="panel body">
-          <p>Python is a programming language that lets you work more quickly and integrate your systems more
-            effectively. Listed below are some applications of Python:</p>
-          <br>
-          <ul>
-            <li>Web and Internet Development</li>
-            <li>Education</li>
-            <li>Software Development</li>
-            <li>Business Applications</li>
-          </ul>
-          <p>Of course, this is just a brief synopsis of all the amazing things that Python can do. To check our sources
-            and learn more complex information please visit <a href="https://www.python.org">Python</a> . Check out the
-            documentation, current events, and community sections and code away!</p>
+    <div class="container">
+      <div class="form-group">
+        <div id="pythonpanel" class="panel panel-success">
+          <div class="panel-heading">Python</div>
+          <div class="panel body">
+            <p>Python is a programming language that lets you work more quickly and integrate your systems more
+              effectively. Listed below are some applications of Python:</p>
+            <br>
+            <ul>
+              <li>Web and Internet Development</li>
+              <li>Education</li>
+              <li>Software Development</li>
+              <li>Business Applications</li>
+            </ul>
+            <p>Of course, this is just a brief synopsis of all the amazing things that Python can do. To check our sources
+              and learn more complex information please visit <a href="https://www.python.org">Python</a> . Check out the
+              documentation, current events, and community sections and code away!</p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <div id="listrust" class="form">
-    <div class="form-group">
-      <div id="rustpanel" class="panel panel-success">
-        <div class="panel-heading">Rust</div>
-        <div class="panel body">
-          <p>Rust: A language empowering everyone to build reliable and efficient software. Here are a few things we can
-            build using Rust:<p>
-              <br>
-              <ul>
-                <li>Webservers</li>
-                <li>Databases</li>
-                <li>Operating Systems</li>
-                <li>Virtual Machines</li>
-              </ul>
-              <p>There are many great things you can make your computer do using Rust. Visit <a
-                  href="https://www.rust-lang.org">Rust-Lang.org</a> to look deeper into the depths of building software
-                with Rust.</p>
+    <div id="listrust" class="form">
+      <div class="form-group">
+        <div id="rustpanel" class="panel panel-success">
+          <div class="panel-heading">Rust</div>
+          <div class="panel body">
+            <p>Rust: A language empowering everyone to build reliable and efficient software. Here are a few things we can
+              build using Rust:<p>
+                <br>
+                <ul>
+                  <li>Webservers</li>
+                  <li>Databases</li>
+                  <li>Operating Systems</li>
+                  <li>Virtual Machines</li>
+                </ul>
+                <p>There are many great things you can make your computer do using Rust. Visit <a
+                    href="https://www.rust-lang.org">Rust-Lang.org</a> to look deeper into the depths of building software
+                  with Rust.</p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <div id="listswift" class="form">
-    <div class="form-group">
-      <div id="swiftpanel" class="panel panel-success">
-        <div class="panel-heading">Swift</div>
-        <div class="panel body">
-          <p>Swift is a general-purpose programming language built using a modern approach to safety, performance, and
-            software design patterns. Some things you can engineer:</p>
-          <br>
-          <ul>
-            <li>iOS & Linux Development</li>
-            <li>Games</li>
-            <li>Mobile Phone Applications</li>
-            <li>Modern Server Applications</li>
-          </ul>
-          <p>Swift is a language created by Chris Lattner in conjunction with Apple. Please visit <a
-              href="https://www.swift.org">Swift Code</a> to start developing now!</p>
+    <div id="listswift" class="form">
+      <div class="form-group">
+        <div id="swiftpanel" class="panel panel-success">
+          <div class="panel-heading">Swift</div>
+          <div class="panel body">
+            <p>Swift is a general-purpose programming language built using a modern approach to safety, performance, and
+              software design patterns. Some things you can engineer:</p>
+            <br>
+            <ul>
+              <li>iOS & Linux Development</li>
+              <li>Games</li>
+              <li>Mobile Phone Applications</li>
+              <li>Modern Server Applications</li>
+            </ul>
+            <p>Swift is a language created by Chris Lattner in conjunction with Apple. Please visit <a
+                href="https://www.swift.org">Swift Code</a> to start developing now!</p>
+          </div>
         </div>
       </div>
     </div>
