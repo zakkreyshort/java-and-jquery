@@ -1,7 +1,7 @@
 $(document).ready(function () {
   $("input[type='button']").click(function () {
     var radioValue = $("input[name='language']:checked").val();
-    var otherValue = $("input[name='starwars']:checked").val();
+    
     if (radioValue === "Python" ) {
       $("#pythonpanel").show();
       $("#rustpanel").hide();

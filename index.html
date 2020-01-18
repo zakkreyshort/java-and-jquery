@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +13,7 @@
   <title>Programming Language Suggestor</title>
   <!--Created form for submission, link value to appropriate programming language-->
 </head>
+
 <body>
   <div class="container">
     <h1>Programming Language Suggestor</h1>
@@ -40,33 +42,30 @@
       <br>
       <h4>Pick a letter:</h4>
       <div class="form-group">
-        <input type="radio" name="language" value="Python">A
+        <input type="radio" name="language" value="a">A
         <br>
-        <input type="radio" name="language" value="Rust">G
+        <input type="radio" name="language" value="g">G
         <br>
-        <input type="radio" name="languag" value="Swift">X
+        <input type="radio" name="language" value="x">X
       </div>
+      <br>
+      <div class="form-group">
+        <h4>What Star Wars character is best?</h4>
+        <input type="radio" name="starwars" value="darthvader">Darth Vader
         <br>
-        <form class="form-group">
-          <h4>What Star Wars character is best?</h4>
-          
-            <input type="radio" name="starwars" value="darthvader">Darth Vader</input>
-            <br>
-            <input type="radio" name="starwars" value="babyyoda">Baby Yoda</input>
-            <br>
-            <input type="radio" name="starwars" value="chewy">Chewbacca</input>
-          
-          <br>
-        </form>   
-            <p><input type="button" value="Get Value"></input></p>
-            <input type="reset" value="Reset"></input>
-            <!--button needs function-->
+        <input type="radio" name="starwars" value="babyyoda">Baby Yoda
+        <br>
+        <input type="radio" name="starwars" value="chewy">Chewbacca
+        <br>
+      </div>
+      <input type="button" value="Get Value"></input>
+      <!--button needs function-->
     </form>
   </div>
   <!--end of original survey that links to submit-->
   <!--panels with info below are hidden, write function based on answer submitted-->
-  <form id="listpython" class="form">
-    <div class="container">
+  <form>
+    <div class="container" id="listpython">
       <div class="form-group">
         <div id="pythonpanel" class="panel panel-success">
           <div class="panel-heading">Python</div>
@@ -115,27 +114,25 @@
       </div>
     </div>
     <div class="container">
-      <div id="listswift" class="form">
-        <div class="form-group">
+      <div id="listswift">
           <div id="swiftpanel" class="panel panel-success">
             <div class="panel-heading">Swift</div>
-            <div class="panel body">
-              <p>Swift is a general-purpose programming language built using a modern approach to safety, performance, and
-                software design patterns. Some things you can engineer:</p>
-              <br>
-              <ul>
-                <li>iOS & Linux Development</li>
-                <li>Games</li>
-                <li>Mobile Phone Applications</li>
-                <li>Modern Server Applications</li>
-              </ul>
-              <p>Swift is a language created by Chris Lattner in conjunction with Apple. Please visit <a
-                  href="https://www.swift.org">Swift Code</a> to start developing now!</p>
-            </div>
+              <div class="panel body">
+                <p>Swift is a general-purpose programming language built using a modern approach to safety, performance,
+                  and
+                  software design patterns. Some things you can engineer:</p>
+                <br>
+                <ul>
+                  <li>iOS & Linux Development</li>
+                  <li>Games</li>
+                  <li>Mobile Phone Applications</li>
+                  <li>Modern Server Applications</li>
+                </ul>
+                <p>Swift is a language created by Chris Lattner in conjunction with Apple. Please visit <a
+                    href="https://www.swift.org">Swift Code</a> to start developing now!</p>
+              </div>
           </div>
-        </div>
       </div>
     </div>
-  </form>
 </body>
 </html>
