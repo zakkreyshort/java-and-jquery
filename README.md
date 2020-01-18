@@ -8,6 +8,8 @@
 
 _This is a page created with HTML, CSS, and JavaScript to have form funcationality. I aim to take input info and associate it with reasoning to pick a coding language. This is a progress point as a benchmark to what I have learned so far._
 
+## GH-Pages link: https://github.com/zakkreyshort/java-and-jquery/tree/gh-pages
+
 ## Setup/Installation Requirements
 
 * _clone git repository_
